@@ -1,0 +1,17 @@
+# --- Core (required) ---
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart==0.0.20
+yt-dlp>=2024.12.0
+faster-whisper==1.1.0
+
+# --- Optional but recommended (auto-detected; the app still runs without them) ---
+# Face-aware 9:16 reframing so the speaker stays in frame:
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+# Smarter prompt matching when Ollama isn't running:
+sentence-transformers==3.3.1
+
+# NOTE: For the local LLM moment-picker, install Ollama separately from
+# https://ollama.com  then run:  ollama pull llama3.1
+# (The app auto-detects it at http://localhost:11434 and falls back if absent.)
