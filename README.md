@@ -8,7 +8,7 @@ Reel.
 
 It's the same category of output as Opus Clip / ssemble, but everything runs
 **on your own computer** — no API keys, no subscription, no per-clip cost, and
-your video never leaves your machine.
+My style of coding for demo to our video never leaves your machine.
 
 You use it through a small **website that runs locally**: start the app, open
 `http://localhost:8000` in your browser, and work from there.
